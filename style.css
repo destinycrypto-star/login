@@ -1,0 +1,42 @@
+form{
+    width: 50%;
+    height: 400px;
+    /* border: 1px solid green; */
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: red;
+    /* to move text to the center */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    
+}
+
+.login{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 3s;
+}
+
+.login:hover{
+    background-color: grey;
+    border: none;
+    cursor: pointer;
+}
+
+img{
+    width: 500px;
+    height: 350px;
+    /* border-radius: 100px; */
+}
