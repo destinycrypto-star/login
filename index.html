@@ -16,12 +16,22 @@
 </style> -->
 <body>
     <h1>Login your account</h1>
+    <!-- form tag to get user inputs -->
+    <!-- the "action" is to specify the link the site will redirected to when the user clicks the login button -->
+
     <form action="home.html">
+
+        <!-- the "required" is to validate inputs to make sure the form is filled before signing up -->
+
         <input type="text" name="" id="" placeholder="Enter your username" required>
        
         <input type="password" name="" id="" placeholder="Enter your password" required>
+        <!-- the submit input is to send the details to the link specified in the "action" on form tag -->
         
         <input type="submit" value="Login" class="login">
+
+        <p>Don't have an account? <a href="signup.html">Signup</a></p>
+
         
     </form>
 </body>
